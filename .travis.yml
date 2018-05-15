@@ -8,9 +8,9 @@ addons:
 install:
   - rm -rf public || exit 0
 
-# Build the website
+# Build the staging website
 script:
-  - ./_binaries/hugo
+  - ./_binaries/hugo -b /digital_services # served at a path on gh-pages
 
 # Deploy to Github pages
 deploy:
