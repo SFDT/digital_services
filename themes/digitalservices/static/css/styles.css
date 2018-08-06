@@ -778,14 +778,16 @@ body.job-description p {
   margin-top: 15px;
 }
 
+/* Join us and email subscribe*/
+
 .contact-form {
   width: 60%;
   margin-left: 20%;
 }
 
-/* Get the description and form to line up*/
 .contact-form form {
-  padding-left: 15px; 
+  /*Get the description and form to line up*/
+  padding-left: 15px;
 }
 
 .fr_error, .fr_required {
@@ -797,7 +799,9 @@ body.job-description p {
     font-size: 15px;   
 }
 
-input, select, textarea {
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
     width: 100%;
     padding: 12px 13px 10px 13px;
     font-size: 19px;
@@ -816,6 +820,12 @@ input, select, textarea {
     color: #393939 !important;
 }
 
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none !important;
+  border: 3px solid #0082ed !important;
+  box-shadow: none !important;
+}
 .fr_response_field_text input.size_medium,
 .fr_response_field_id input,
 .fr_response_field_website input,
@@ -830,6 +840,8 @@ input, select, textarea {
 .fr_text.size_medium {
     margin-top:2em;
 }
+
+/* End: Join us and email subscribe*/
 
 footer {
   z-index: 10000;
