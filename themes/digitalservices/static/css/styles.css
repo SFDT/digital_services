@@ -785,9 +785,9 @@ body.job-description p {
   margin-left: 20%;
 }
 
-.contact-form form {
+.contact-form .col-md-12 {
   /*Get the description and form to line up*/
-  padding-left: 15px;
+  padding-left: 0px;
 }
 
 .fr_error, .fr_required {
